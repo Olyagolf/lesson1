@@ -9,7 +9,7 @@ def get_vat(payment, percent=18):
     except (TypeError, ValueError):
         return ("Не могу посчитать, проверьте вводимые значения")
 
-result=get_vat(400, "9")
+result=get_vat(80000, "20")
 print(result)
 
 
